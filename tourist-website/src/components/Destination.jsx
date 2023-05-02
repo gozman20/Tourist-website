@@ -29,7 +29,7 @@ export default function Destination() {
     }
     //When not in view, the below code applies
     if (!inView) {
-      animation.start({ y: 300, opacity: 0, transition: { duration: 0 } });
+      animation.start({ y: 200, opacity: 0, transition: { duration: 0 } });
     }
   }, [inView]);
   return (

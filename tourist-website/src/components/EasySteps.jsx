@@ -10,6 +10,7 @@ export default function EasySteps() {
       <h1 className="text-[20px] font-bold text-center mb-16">
         <span>Process</span>
       </h1>
+      <h3 className="font-bold text-center text-[40px] my-3">In Easy steps</h3>
       {/* center the items-container */}
       <div className="grid place-items-center">
         {/* grid-items container */}

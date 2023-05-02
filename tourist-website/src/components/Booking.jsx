@@ -51,7 +51,7 @@ export default function Booking() {
                 {" "}
                 <input
                   className="w-full h-full outline-none p-2 text-[20px]  "
-                  placeholder="Your Name"
+                  placeholder="Select a date"
                   type="date"
                 ></input>
                 <input
@@ -64,6 +64,7 @@ export default function Booking() {
                 <textarea
                   className="resize-none outline-none w-full  h-[100px] p-2 text-[20px]"
                   placeholder="Special request"
+                  defaultValue="Special request"
                 ></textarea>
               </div>
               <button className="w-full h-[30px] md:h-[50px] text-white border border-white/90 text-[20px] md:text-[30px]">
