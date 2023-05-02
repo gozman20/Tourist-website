@@ -7,10 +7,10 @@ import styles from "../style";
 export default function EasySteps() {
   return (
     <section className={`${styles.paddingX} ${styles.paddingY} `}>
-      <h1 className="text-[20px] font-bold text-center mb-16">
+      <h1 className="text-[20px] font-bold text-center mb-3">
         <span>Process</span>
       </h1>
-      <h3 className="font-bold text-center text-[40px] my-3">In Easy steps</h3>
+      <h3 className="font-bold text-center text-[40px] my-16">In Easy steps</h3>
       {/* center the items-container */}
       <div className="grid place-items-center">
         {/* grid-items container */}
