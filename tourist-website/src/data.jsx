@@ -34,7 +34,7 @@ export const ServicesArray = [
     icon: <TbWorld />,
   },
   {
-    title: "Hptel Reservation",
+    title: "Hotel Reservation",
     text: "Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam",
     icon: <FaHotel />,
   },
@@ -64,7 +64,7 @@ export const ServicesArray = [
     icon: <BsFillPersonFill />,
   },
   {
-    title: "management settings",
+    title: "Event Management",
     text: "Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam",
     icon: <IoMdSettings />,
   },

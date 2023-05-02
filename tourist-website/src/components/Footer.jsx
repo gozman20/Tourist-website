@@ -45,7 +45,7 @@ export default function Footer() {
         {/* NewSletter */}
         <div className="">
           <h1 className="text-[25px] mb-3">Newsletter</h1>
-          <p className="text-[20px] max-w-[300px] mb-3">
+          <p className="text-[20px] max-w-[350px] mb-3">
             Dolor amet sit justo amet elitr clita ipsum elitr est.
           </p>
           <div className="relative h-[35px] ">
