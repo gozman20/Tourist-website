@@ -50,7 +50,9 @@ export default function Footer() {
           </p>
           <div className="relative h-[35px] ">
             <input type="text" className="h-full w-[78%]" />
-            <button className="absolute p-2 h-[35px] bg-main">Sign up</button>
+            <button className="absolute p-2 h-[35px] bg-main w-[80px]">
+              Sign up
+            </button>
           </div>
         </div>
       </div>
