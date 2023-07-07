@@ -24,7 +24,7 @@ export default function Packages() {
         opacity: 1,
         transition: {
           type: "spring",
-          duration: 3,
+          duration: 2,
           // bounce: 2,
         },
       });

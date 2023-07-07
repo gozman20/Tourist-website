@@ -22,14 +22,19 @@ export default function Destination() {
         opacity: 1,
         transition: {
           type: "spring",
-          duration: 3,
+          duration: 1,
           // bounce: 2,
         },
       });
     }
     //When not in view, the below code applies
     if (!inView) {
-      animation.start({ y: 200, opacity: 0, transition: { duration: 0 } });
+      animation.start({
+        y: 200,
+        opacity: 0,
+        transition: { duration: 0 },
+        once: true,
+      });
     }
   }, [inView]);
   return (

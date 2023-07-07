@@ -6,9 +6,9 @@ import { aboutLeft, aboutRight } from "../data";
 export default function About() {
   return (
     <section id="About" className={`${styles.paddingX} ${styles.paddingY}  `}>
-      <div className=" about">
+      <div className=" grid grid-cols-1 lg:grid-cols-2 gap-6">
         {/* -----img */}
-        <div className="about-img ">
+        <div className=" col-span-1">
           <img src={aboutjpg} alt="" className="h-full w-full" />
         </div>
         {/* ----test */}
@@ -51,7 +51,7 @@ export default function About() {
               </ul>
             </div>
           </div>
-          <button className="bg-main px-5 py-2 mt-3 text-[20px] btn text-white">
+          <button className="bg-main px-5 py-2 mt-10 text-[20px] btn text-white">
             Read more
           </button>
         </div>

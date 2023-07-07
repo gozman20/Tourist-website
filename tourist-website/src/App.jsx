@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { BsFillChatDotsFill } from "react-icons/bs";
 import About from "./components/About";
-import Services from "./components/Services/Services";
+import Services from "./components/services/Services";
 import Destination from "./components/Destination";
 import Packages from "./components/Packages";
 import Booking from "./components/Booking";
-import EasySteps from "./components/EasySteps";
-import Team from "./components/Team";
+import EasySteps from "./components/easySteps/EasySteps";
+import Team from "./components/team/Team";
 import Testimonial from "./components/Testimonial";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
