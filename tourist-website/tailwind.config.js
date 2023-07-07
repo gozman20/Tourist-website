@@ -6,11 +6,11 @@ export default {
       colors: {
         main: "rgb(0, 179, 0)",
       },
-      screens: {
-        lg: "1024px",
+      // screens: {
+      //   lg: "1024px",
 
-        md: "640px",
-      },
+      //   md: "640px",
+      // },
     },
   },
   plugins: [],

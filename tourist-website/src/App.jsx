@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { BsFillChatDotsFill } from "react-icons/bs";
 import About from "./components/About";
-import Services from "./components/Services";
+import Services from "./components/Services/Services";
 import Destination from "./components/Destination";
 import Packages from "./components/Packages";
 import Booking from "./components/Booking";

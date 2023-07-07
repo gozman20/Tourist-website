@@ -49,7 +49,7 @@ export default function Footer() {
             Dolor amet sit justo amet elitr clita ipsum elitr est.
           </p>
           <div className="relative h-[35px] ">
-            <input type="text" className="h-full w-[78%]" />
+            <input type="text" className="h-full w-[78%] outline-none" />
             <button className="absolute p-2 h-[35px] bg-main w-[80px]">
               Sign up
             </button>
